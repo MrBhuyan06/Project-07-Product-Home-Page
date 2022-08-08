@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&family=Mulish:wght@400;700&family=Nunito&family=Oswald:wght@200;700&family=Roboto:ital@0;1&family=Source+Sans+Pro&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+  
+}
+div.nav-items
+{
+    flex:0.5;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 2%;
+    margin:0  10%;
+}
+div.nav-logo
+{
+   flex:0.3;
+    
+}
+div.nav-logo img{
+    
+    display: block;
+    margin:0 auto;
+}
+div.nav-left
+{
+    flex: 0.1;
+    
+    margin-left:0  10%;
+    
+}
+div.nav-left img
+{
+    height: 40px;
+    padding:0  5%;
+}
+.nav-item
+{
+    font-size:20px;
+    font-weight: 400;
+}
+.active-item
+{
+    color:#ff4500 ;
+    font-weight: 900;
+}
+div.intro-section
+{
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left-section
+{
+    flex:1;
+
+    display: block;
+    margin:0 auto;
+    margin-left: 5%;
+   
+}
+.headphone-div
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    height: 85vh;
+    
+}
+.head-phone
+{
+    height: 450px;
+    position: relative;
+    right: 20%;
+    bottom: 8%;
+    z-index: 1;
+    overflow: hidden;
+
+}
+.discount
+{
+    position: relative;
+    top:8%;
+    left:2%;
+   
+    overflow: visible;
+    
+    height: 130px;
+    z-index: 2;
+   
+}
+.discount-content
+{
+    z-index: 2;
+    color: #ffff;
+    font-size:15px;
+    position: relative;
+    right:13%;
+    top:8%;
+    /* line-height:3px; */
+    line-height: 25px;
+   
+}
+div.discount-content>h1{
+    font-size:40px;
+   
+}
+.star
+{
+    filter: drop-shadow(1px 5px 0 #b3aeae);
+}
+.yellow-dot
+{
+   height: 30px;
+   width: 30px;
+   background-color:#F4BE2C;
+   border-radius: 20px;
+   
+}
+.tomato-dot
+{
+   height: 30px;
+   width: 30px;
+   background-color:#ff4500;
+   border-radius: 20px;
+}
+.black-dot
+{
+   height: 30px;
+   width: 30px;
+   background-color:#1f1f1f;
+   border-radius: 20px;
+}
+.dots
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    position: relative;
+    top:-20%;
+    z-index: 2;
+    right: 8%;
+    margin: 0 auto;
+    
+}
+.action-btn
+{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 2rem;
+    position: relative;
+    top:-17%;
+    display: block;
+    margin: 0 auto;
+    right: 8%;
+    background-color: rgb(247, 109, 58);
+    color: #ffff;
+    font-size: 20px;
+}
+h3.new
+{
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+h1.new2
+{
+    font-size: 80px;
+    font-weight: 900;
+    
+    
+
+}
+
+h5.sub-headline>img
+{
+   background-color:rgb(247, 109, 58);
+   height: 25px;
+   width: 25px;
+   border-radius: 12px;
+   line-height: 5px;
+   padding:1px 1px;
+   margin-right: 2%;
+   
+}
+
+h5.sub-headline
+{
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+.sub-headlines
+{
+    margin-left: 10%;
+}
+.text
+{
+    margin-top: 15%;
+    width: 90%;
+    text-justify: auto;
+    color:#aba5a5;
+}
+.action-btns
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+  
+    width: 70%;
+}
